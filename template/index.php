@@ -44,7 +44,7 @@ include("modulos/index.php");
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password"  name="txtPasword" class="form-control" placeholder="Password">
+          <input type="password"  name="txtPassword" class="form-control" placeholder="Password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
