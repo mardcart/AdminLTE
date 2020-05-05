@@ -25,7 +25,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item has-treeview ">
-                <a href="panel.php" class="nav-link active">
+                <a href="vistaPanel.php" class="nav-link active">
                   <i class="nav-icon fas fa-tachometer-alt"></i>
                   <p>
                     Inicio
@@ -35,7 +35,7 @@
                 
               </li>
               <li class="nav-item has-treeview ">
-                <a href="productos.php" class="nav-link">
+                <a href="vistaProductos.php" class="nav-link">
                   <i class="nav-icon fas fa-tachometer-alt"></i>
                   <p>
                    Productos
@@ -45,7 +45,7 @@
                 
               </li>
               <li class="nav-item has-treeview ">
-                <a href="ventas.php" class="nav-link">
+                <a href="vistaVentas.php" class="nav-link">
                   <i class="nav-icon fas fa-tachometer-alt"></i>
                   <p>
                    Ventas
