@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>NEGOCIO DIGITAL</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -63,7 +63,7 @@
       <li class="dropdown user user-menu open">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
               <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">Marco Cardenas</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -71,8 +71,8 @@
                 <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  Marco Cardenas - Web Developer
+                  <small>Member since Nov. 2020</small>
                 </p>
               </li>
               <!-- Menu Body 

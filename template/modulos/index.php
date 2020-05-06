@@ -1,6 +1,6 @@
 <?php 
 
-echo "hola soy index en la carpeta modulos";
+///echo "hola soy index en la carpeta modulos";
 
 if(isset($_POST["btnLogin"])){
 
@@ -18,7 +18,7 @@ if(isset($_POST["btnLogin"])){
 
     $registro=$sentenciaSQL->fetch(PDO::FETCH_ASSOC);
 
-  //  print_r($registro);
+    
 
     $numeroRegistros=$sentenciaSQL->rowCount();
 
@@ -27,7 +27,7 @@ if(isset($_POST["btnLogin"])){
         session_start();
         $_SESSION['usuario']=$registro;
         
-        echo "bienvenido....";
+       // echo "bienvenido....";
         header('Location:vistaPanel.php');
     }else{
         echo "no se encontraron  registros";
