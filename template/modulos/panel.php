@@ -1,5 +1,7 @@
 <?php  
 
-echo "hola soy panel de modulos";
+include('global/sessiones.php');
+ echo "hola soy panel en modulos";
+
 
 ?>

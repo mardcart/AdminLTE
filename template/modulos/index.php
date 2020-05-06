@@ -16,10 +16,19 @@ if(isset($_POST["btnLogin"])){
 
     $sentenciaSQL->execute();
 
+    $registro=$sentenciaSQL->fetch(PDO::FETCH_ASSOC);
+
+  //  print_r($registro);
+
     $numeroRegistros=$sentenciaSQL->rowCount();
 
     if($numeroRegistros>=1){
+        
+        session_start();
+        $_SESSION['usuario']=$registro;
+        
         echo "bienvenido....";
+        header('Location:vistaPanel.php');
     }else{
         echo "no se encontraron  registros";
     }
