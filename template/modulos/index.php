@@ -25,7 +25,7 @@ if(isset($_POST["btnLogin"])){
     if($numeroRegistros>=1){
         
         session_start();
-        $_SESSION['usuario']=$registro;
+     $_SESSION['usuario']=$registro;
         
        // echo "bienvenido....";
         header('Location:vistaPanel.php');
